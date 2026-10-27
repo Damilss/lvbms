@@ -1,0 +1,11 @@
+# Mac stuff
+.DS_Store
+
+# executables
+*.out
+out
+a.out
+
+# vim
+*.swp
+

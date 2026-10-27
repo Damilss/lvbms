@@ -1,0 +1,7 @@
+# Matches .editorconfig: tab indentation, shown 4 wide.
+# Run by hand (clang-format -i src/*.cpp src/*.h);
+BasedOnStyle: LLVM
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 100

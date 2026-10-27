@@ -1,0 +1,21 @@
+# editorconfig: https://editorconfig.org
+# vscode needs the editorconfig extension (recommended in .vscode/extensions.json).
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# c/cpp and shell: tab characters, shown 4 wide in every editor
+[*.{c,cpp,h,hpp,sh}]
+indent_style = tab
+indent_size = tab
+tab_width = 4
+
+# markdown: two trailing spaces mean a line break
+[*.md]
+trim_trailing_whitespace = false
+indent_style = space
+indent_size = 2

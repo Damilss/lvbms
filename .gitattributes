@@ -1,0 +1,10 @@
+# Normalize line endings so Windows and Linux/macOS contributors don't produce noisy diffs
+* text=auto eol=lf
+
+*.bat text eol=crlf
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.elf binary
+*.bin binary
